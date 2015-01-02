@@ -9,7 +9,9 @@
 #import "rideProfileViewController.h"
 
 @interface rideProfileViewController ()
-
+{
+    NSString* currentRide;
+}
 @end
 
 @implementation rideProfileViewController
@@ -22,6 +24,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)setCurrentRide:(NSString *)currentRide1 {
+    currentRide = currentRide1;
 }
 
 /*

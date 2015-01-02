@@ -10,4 +10,5 @@
 
 @interface rideProfileViewController : UIViewController
 
+-(void)setCurrentRide:(NSString *)currentRide1;
 @end

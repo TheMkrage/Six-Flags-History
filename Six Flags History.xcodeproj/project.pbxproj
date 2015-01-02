@@ -23,6 +23,7 @@
 		7E7BDAE51A513FD700FB93CF /* SixFlagsMagicMountainRides.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E7BDAE41A513FD700FB93CF /* SixFlagsMagicMountainRides.txt */; };
 		7E7BDAE71A51465200FB93CF /* SixFlagsGreatAmericaRides.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E7BDAE61A51465200FB93CF /* SixFlagsGreatAmericaRides.txt */; };
 		7E7BDAEB1A51490D00FB93CF /* rideProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BDAEA1A51490D00FB93CF /* rideProfileViewController.m */; };
+		7EC60C601A56644800C7B372 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC60C5F1A56644800C7B372 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		7E7BDAE61A51465200FB93CF /* SixFlagsGreatAmericaRides.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SixFlagsGreatAmericaRides.txt; sourceTree = "<group>"; };
 		7E7BDAE91A51490D00FB93CF /* rideProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rideProfileViewController.h; sourceTree = "<group>"; };
 		7E7BDAEA1A51490D00FB93CF /* rideProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rideProfileViewController.m; sourceTree = "<group>"; };
+		7EC60C5F1A56644800C7B372 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC60C601A56644800C7B372 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +90,7 @@
 		7E7BDA921A51369D00FB93CF = {
 			isa = PBXGroup;
 			children = (
+				7EC60C5F1A56644800C7B372 /* iAd.framework */,
 				7E7BDA9D1A51369D00FB93CF /* Six Flags History */,
 				7E7BDAB71A51369D00FB93CF /* Six Flags HistoryTests */,
 				7E7BDA9C1A51369D00FB93CF /* Products */,
@@ -475,6 +479,7 @@
 				7E7BDAC01A51369D00FB93CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E7BDAC11A51369D00FB93CF /* Build configuration list for PBXNativeTarget "Six Flags HistoryTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				7E7BDAC31A51369D00FB93CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
