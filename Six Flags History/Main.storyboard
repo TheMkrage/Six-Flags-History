@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RJK-ie-ok2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -167,18 +168,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pBo-Ww-bZA">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBo-Ww-bZA">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="480"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B77-Q9-Gqs">
-                                        <rect key="frame" x="8" y="8" width="93" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="150" y="179" width="94" height="22"/>
-                                        </variation>
-                                    </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXq-0X-kBR">
                                         <rect key="frame" x="8" y="37" width="336" height="212"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -186,36 +178,61 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="209" width="378" height="212"/>
+                                            <rect key="frame" x="8" y="201" width="302" height="212"/>
                                         </variation>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y6Q-4I-aUw">
-                                        <rect key="frame" x="352" y="8" width="240" height="128"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="200" y="8" width="186" height="97"/>
-                                        </variation>
-                                    </imageView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bON-H0-jdt">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="8" width="191" height="163"/>
+                                            <rect key="frame" x="8" y="8" width="162" height="162"/>
                                         </variation>
                                     </scrollView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y6Q-4I-aUw">
+                                        <rect key="frame" x="352" y="8" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="178" y="8" width="130" height="86"/>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B77-Q9-Gqs">
+                                        <rect key="frame" x="8" y="8" width="93" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="112" y="178" width="94" height="22"/>
+                                        </variation>
+                                    </label>
                                 </subviews>
                                 <variation key="default">
                                     <mask key="subviews">
                                         <exclude reference="bON-H0-jdt"/>
+                                        <exclude reference="B77-Q9-Gqs"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact">
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="480"/>
                                     <mask key="subviews">
                                         <include reference="bON-H0-jdt"/>
+                                        <include reference="B77-Q9-Gqs"/>
                                     </mask>
                                 </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="pBo-Ww-bZA" secondAttribute="centerX" id="9HR-cp-xmc"/>
+                            <constraint firstItem="pBo-Ww-bZA" firstAttribute="leading" secondItem="3AH-NT-KVw" secondAttribute="leadingMargin" constant="-16" id="ARh-aJ-kY7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pBo-Ww-bZA" secondAttribute="trailing" constant="-16" id="Goi-bG-JYm"/>
+                            <constraint firstItem="pBo-Ww-bZA" firstAttribute="top" secondItem="3AH-NT-KVw" secondAttribute="topMargin" id="H4h-dT-Gcb"/>
+                            <constraint firstItem="wHB-WM-oLu" firstAttribute="top" secondItem="pBo-Ww-bZA" secondAttribute="bottom" constant="120" id="LxN-Yk-Dya"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descriptionTextView" destination="bXq-0X-kBR" id="ETr-V6-esT"/>
+                        <outlet property="detailScrollView" destination="bON-H0-jdt" id="xzu-RC-Our"/>
+                        <outlet property="imageView" destination="Y6Q-4I-aUw" id="Uls-ly-A5c"/>
+                        <outlet property="scrollView" destination="pBo-Ww-bZA" id="6dz-z5-aZI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="COC-ab-mAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

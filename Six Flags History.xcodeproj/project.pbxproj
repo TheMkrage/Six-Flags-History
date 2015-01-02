@@ -24,6 +24,7 @@
 		7E7BDAE71A51465200FB93CF /* SixFlagsGreatAmericaRides.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E7BDAE61A51465200FB93CF /* SixFlagsGreatAmericaRides.txt */; };
 		7E7BDAEB1A51490D00FB93CF /* rideProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BDAEA1A51490D00FB93CF /* rideProfileViewController.m */; };
 		7EC60C601A56644800C7B372 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC60C5F1A56644800C7B372 /* iAd.framework */; };
+		7EC60C631A5679AA00C7B372 /* GoliathDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		7E7BDAE91A51490D00FB93CF /* rideProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rideProfileViewController.h; sourceTree = "<group>"; };
 		7E7BDAEA1A51490D00FB93CF /* rideProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rideProfileViewController.m; sourceTree = "<group>"; };
 		7EC60C5F1A56644800C7B372 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GoliathDescription.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		7E7BDAD81A5138E800FB93CF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				7EC60C611A56799000C7B372 /* MagicMountainRides */,
 				7E7BDAE81A51469F00FB93CF /* Ride Lists */,
 				7E7BDAD91A51390700FB93CF /* listOfParks */,
 			);
@@ -192,6 +195,14 @@
 				7E7BDAE61A51465200FB93CF /* SixFlagsGreatAmericaRides.txt */,
 			);
 			name = "Ride Lists";
+			sourceTree = "<group>";
+		};
+		7EC60C611A56799000C7B372 /* MagicMountainRides */ = {
+			isa = PBXGroup;
+			children = (
+				7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */,
+			);
+			name = MagicMountainRides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC60C631A5679AA00C7B372 /* GoliathDescription.txt in Resources */,
 				7E7BDAE71A51465200FB93CF /* SixFlagsGreatAmericaRides.txt in Resources */,
 				7E7BDACA1A5136EE00FB93CF /* Main.storyboard in Resources */,
 				7E7BDADA1A51390700FB93CF /* listOfParks in Resources */,

@@ -11,6 +11,10 @@
 @interface rideProfileViewController ()
 {
     NSString* currentRide;
+    IBOutlet UIScrollView *scrollView;
+    IBOutlet UIScrollView *detailScrollView;
+    IBOutlet UITextView *descriptionTextView;
+    IBOutlet UIImageView *imageView;
 }
 @end
 
@@ -19,12 +23,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"%@",currentRide);
+    NSString *rideDescriptionFileName = [NSString stringWithFormat:@"%@Description",currentRide];
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:rideDescriptionFileName ofType:@"txt"];
+    
+    NSString* descriptionText = [NSString stringWithContentsOfFile:filePath
+                                                          encoding:NSUTF8StringEncoding
+                                                             error:nil];
+    descriptionTextView.text =descriptionText;
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)viewDidLayoutSubviews {
+    scrollView.frame = CGRectMake(scrollView.frame.origin.x, scrollView.frame.origin.y, 320, self.view.frame.size.height);
+    scrollView.contentSize = CGSizeMake(320, 700);
+    [scrollView  setCenter:CGPointMake(scrollView.center.x, scrollView.center.y - 62)];
+    
+    
+    
+    [self.view layoutSubviews];
 }
 
 -(void)setCurrentRide:(NSString *)currentRide1 {
