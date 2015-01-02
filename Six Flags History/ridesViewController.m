@@ -70,21 +70,14 @@
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
    
-    static NSString *CellIdentifier = @"parkCell";
-    parkTableCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    parkTableCell *cell = (parkTableCell*)[tableView cellForRowAtIndexPath:indexPath];
     temporaryCurrentRideString = cell.parkLabel.text;
     NSString * storyboardName = @"Main";
     NSString * viewControllerID = @"rideProfileViewController";
     UIStoryboard * storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
     rideProfileViewController* controller = (rideProfileViewController *)[storyboard instantiateViewControllerWithIdentifier:viewControllerID];
+    [controller setCurrentRide: temporaryCurrentRideString];
     [self.navigationController pushViewController:controller animated:YES];
     
 }
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    [[segue destinationViewController] setCurrentRide: temporaryCurrentRideString]; 
-   
-}
-
-
 @end
