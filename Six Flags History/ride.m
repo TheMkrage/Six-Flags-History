@@ -10,4 +10,10 @@
 
 @implementation ride
 
+-(id) initWithRideName: (NSString*) name RideImage: (UIImage*) image {
+    self = [super init];
+    self.name = name;
+    self.image = image;
+    return self;
+}
 @end

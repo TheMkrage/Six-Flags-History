@@ -13,4 +13,6 @@
 
 @property(strong, nonatomic) UIImage* image;
 @property NSString* name;
+
+-(id) initWithRideName: (NSString*) name RideImage: (UIImage*) image;
 @end
