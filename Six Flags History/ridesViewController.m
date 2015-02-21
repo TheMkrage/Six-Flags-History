@@ -63,6 +63,7 @@
     
     long row = [indexPath row];
     cell.parkLabel.text = [currentPark.rides objectAtIndex:row];
+    cell.parkImage = [currentPark.rides obj];
     // Configure the cell...
     
     return cell;

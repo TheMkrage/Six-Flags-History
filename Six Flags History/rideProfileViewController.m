@@ -15,6 +15,7 @@
     IBOutlet UIScrollView *detailScrollView;
     IBOutlet UITextView *descriptionTextView;
     IBOutlet UIImageView *imageView;
+    
 }
 @end
 
@@ -29,9 +30,20 @@
     NSString* descriptionText = [NSString stringWithContentsOfFile:filePath
                                                           encoding:NSUTF8StringEncoding
                                                              error:nil];
+    
     descriptionTextView.text =descriptionText;
+    
+   
+    UIImage* rideImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@Image.jpg",currentRide]];
+    imageView.image = rideImage;
+    
+    
     // Do any additional setup after loading the view.
+    NSLog(@"X: %f, Y: %f, Width: %f, Height: %f", descriptionTextView.frame.origin.x, descriptionTextView.frame.origin.y,descriptionTextView.frame.size.width,descriptionTextView.frame.size.height);
+    
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -39,13 +51,18 @@
 }
 
 -(void)viewDidLayoutSubviews {
-    scrollView.frame = CGRectMake(scrollView.frame.origin.x, scrollView.frame.origin.y, 320, self.view.frame.size.height);
-    scrollView.contentSize = CGSizeMake(320, 700);
-    [scrollView  setCenter:CGPointMake(scrollView.center.x, scrollView.center.y - 62)];
+    //[scrollView setBackgroundColor:[UIColor blackColor]];
+    scrollView.contentSize = CGSizeMake(self.view.frame.size.width, 1000);
+   /* scrollView.frame = CGRectMake(scrollView.frame.origin.x , scrollView.frame.origin.y, scrollView.frame.size.width, self.view.frame.size.height - 62);
+    scrollView.contentSize = CGSizeMake(320, 1000);
+    [imageView setFrame:CGRectMake(8, 8, 304, 162)];
+    
+    //[scrollView  setCenter:CGPointMake(scrollView.center.x, scrollView.center.y - 62)];
+    [descriptionTextView setFont:[UIFont fontWithName:@"Menlo" size:16]];*/
     
     
     
-    [self.view layoutSubviews];
+    //[self.view layoutSubviews];
 }
 
 -(void)setCurrentRide:(NSString *)currentRide1 {

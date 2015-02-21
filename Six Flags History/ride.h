@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface ride : NSObject
 
+@property(strong, nonatomic) UIImage* image;
+@property NSString* name;
 @end
