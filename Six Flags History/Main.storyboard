@@ -169,15 +169,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vVa-kS-QB8">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vVa-kS-QB8">
                                 <rect key="frame" x="0.0" y="20" width="600" height="589"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Ic-Mi-XO8">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ic-Mi-XO8">
                                         <rect key="frame" x="8" y="8" width="584" height="162"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="584" id="KUD-UM-zyk"/>
-                                            <constraint firstAttribute="height" constant="162" id="V1h-5g-7iE"/>
-                                        </constraints>
                                         <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="48" y="8" width="304" height="162"/>
                                         </variation>
@@ -257,13 +253,6 @@
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="vVa-kS-QB8" secondAttribute="centerX" id="0tz-7R-K7H"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="vVa-kS-QB8" secondAttribute="bottom" constant="-9" id="2VE-RX-SZk"/>
-                            <constraint firstItem="vVa-kS-QB8" firstAttribute="leading" secondItem="3AH-NT-KVw" secondAttribute="leadingMargin" constant="-16" id="6mS-h2-uLI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="vVa-kS-QB8" secondAttribute="trailing" constant="-16" id="ffv-K5-Zmo"/>
-                            <constraint firstItem="vVa-kS-QB8" firstAttribute="top" secondItem="B8M-U8-p1d" secondAttribute="bottom" id="ysJ-De-Bj6"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="descriptionTextView" destination="bkD-5v-0uc" id="msT-nk-uDE"/>

@@ -52,7 +52,7 @@
 
 -(void)viewDidLayoutSubviews {
     //[scrollView setBackgroundColor:[UIColor blackColor]];
-    scrollView.contentSize = CGSizeMake(self.view.frame.size.width, 1000);
+    scrollView.contentSize = CGSizeMake(self.view.frame.size.width, 1130);
    /* scrollView.frame = CGRectMake(scrollView.frame.origin.x , scrollView.frame.origin.y, scrollView.frame.size.width, self.view.frame.size.height - 62);
     scrollView.contentSize = CGSizeMake(320, 1000);
     [imageView setFrame:CGRectMake(8, 8, 304, 162)];
