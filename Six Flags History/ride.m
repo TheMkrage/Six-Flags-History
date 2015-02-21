@@ -16,4 +16,12 @@
     self.image = image;
     return self;
 }
+
+-(NSString*)getName {
+    return self.name;
+}
+-(UIImage*)getImage {
+    return self.image;
+}
+
 @end

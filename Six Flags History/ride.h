@@ -15,4 +15,7 @@
 @property NSString* name;
 
 -(id) initWithRideName: (NSString*) name RideImage: (UIImage*) image;
+
+-(NSString*) getName;
+-(UIImage*) getImage;
 @end

@@ -8,6 +8,7 @@
 
 #import "ridesViewController.h"
 #import "park.h"
+#import "ride.h"
 #import "parkTableCell.h"
 #import "rideProfileViewController.h"
 @interface ridesViewController ()
@@ -62,8 +63,8 @@
     parkTableCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     long row = [indexPath row];
-    cell.parkLabel.text = [currentPark.rides objectAtIndex:row];
-    cell.parkImage = [currentPark.rides obj];
+    cell.parkLabel.text = (ride*)[currentPark.rides objectAtIndex:row] ;
+    cell.parkImage = [currentPark.rides objectAtIndex:row];
     // Configure the cell...
     
     return cell;
