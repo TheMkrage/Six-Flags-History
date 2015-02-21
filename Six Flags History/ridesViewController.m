@@ -63,8 +63,8 @@
     parkTableCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     long row = [indexPath row];
-    cell.parkLabel.text = (ride*)[currentPark.rides objectAtIndex:row] ;
-    cell.parkImage = [currentPark.rides objectAtIndex:row];
+    cell.parkLabel.text = [(ride*)[currentPark.rides objectAtIndex:row] getName] ;
+    cell.parkImage.image = [(ride*)[currentPark.rides objectAtIndex:row] getImage];
     // Configure the cell...
     
     return cell;

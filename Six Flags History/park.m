@@ -21,6 +21,7 @@
     self = [super init];
     currentPark = parkName;
     NSLog(@"current Park: %@",currentPark);
+    self.rides = [[NSMutableArray alloc] init];
     [self setRidesIntoArray];
     return self;
 }
@@ -41,16 +42,20 @@
                                                 encoding:NSUTF8StringEncoding
                                                    error:nil]
                       componentsSeparatedByString:@"\n"]];
-    NSLog(@"%@", self.rides);
     
+    NSLog(@"%@", rideNameArray);
     for(int i = 0; i < rideNameArray.count; i++) {
         
-        NSString* filePath = [[NSBundle mainBundle] pathForResource:[rideNameArray objectAtIndex:i]ofType:@"jpg"];
+        NSString* filePath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@%@",[rideNameArray objectAtIndex:i],@"Image"]ofType:@"jpg"];
+        //NSLog(@"%@", filePath);
         UIImage* image = [UIImage imageWithContentsOfFile:filePath];
         ride* temp = [[ride alloc] initWithRideName:[rideNameArray objectAtIndex:i] RideImage:image];
+        NSLog(@"%@", temp.name);
         [self.rides addObject:temp];
+    
         
     }
+    NSLog(@"%@", self.rides);
 }
 
 @end
