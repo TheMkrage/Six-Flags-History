@@ -43,6 +43,7 @@
 		7EC037301A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0372F1A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg */; };
 		7EC037321A9AF4720015C282 /* Twisted ColossusImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037311A9AF4720015C282 /* Twisted ColossusImage.jpg */; };
 		7EC037341A9AF5FF0015C282 /* RevolutionDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037331A9AF5FF0015C282 /* RevolutionDescription.txt */; };
+		7EC037361A9AFA170015C282 /* NinjaDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037351A9AFA170015C282 /* NinjaDescription.txt */; };
 		7EC60C601A56644800C7B372 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC60C5F1A56644800C7B372 /* iAd.framework */; };
 		7EC60C631A5679AA00C7B372 /* GoliathDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */; };
 		7EC650B11A5BAA8100B41957 /* Gold RusherImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC650B01A5BAA8100B41957 /* Gold RusherImage.jpg */; };
@@ -108,6 +109,7 @@
 		7EC0372F1A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Speedy Gonzales Hot Rod RacersImage.jpg"; sourceTree = "<group>"; };
 		7EC037311A9AF4720015C282 /* Twisted ColossusImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Twisted ColossusImage.jpg"; sourceTree = "<group>"; };
 		7EC037331A9AF5FF0015C282 /* RevolutionDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RevolutionDescription.txt; sourceTree = "<group>"; };
+		7EC037351A9AFA170015C282 /* NinjaDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NinjaDescription.txt; sourceTree = "<group>"; };
 		7EC60C5F1A56644800C7B372 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GoliathDescription.txt; sourceTree = "<group>"; };
 		7EC650B01A5BAA8100B41957 /* Gold RusherImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gold RusherImage.jpg"; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				7EBFBC371A5A609B003316CE /* Gold RusherDescription.txt */,
 				7EC650B21A5BB37200B41957 /* Magic FlyerDescription.txt */,
 				7EC037331A9AF5FF0015C282 /* RevolutionDescription.txt */,
+				7EC037351A9AFA170015C282 /* NinjaDescription.txt */,
 				7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */,
 			);
 			name = MagicMountainRides;
@@ -377,6 +380,7 @@
 				7E7BDAE51A513FD700FB93CF /* SixFlagsMagicMountainRides.txt in Resources */,
 				7EC037301A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg in Resources */,
 				7EC037101A9AF0130015C282 /* Magic FlyerImage.jpg in Resources */,
+				7EC037361A9AFA170015C282 /* NinjaDescription.txt in Resources */,
 				7E7BDACC1A5136EE00FB93CF /* LaunchScreen.xib in Resources */,
 				7E7BDACB1A5136EE00FB93CF /* Images.xcassets in Resources */,
 				7EC037221A9AF2DB0015C282 /* X2Image.jpg in Resources */,

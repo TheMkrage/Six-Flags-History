@@ -1,0 +1,11 @@
+Status:         Running
+Opening Date:   5/21/1988
+Type:           Steel - Suspended
+Manufacturer:	Arrow Dynamics
+Height:         60 ft
+Length          2700 ft
+Speed           55 mph
+Inversions:     0
+Duration:       1:30
+Riders Per Hour:1600
+
