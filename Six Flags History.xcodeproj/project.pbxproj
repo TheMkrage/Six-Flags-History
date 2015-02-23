@@ -30,6 +30,18 @@
 		7EC037161A9AF1070015C282 /* NinjaImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037151A9AF1070015C282 /* NinjaImage.jpg */; };
 		7EC037181A9AF13F0015C282 /* ViperImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037171A9AF13F0015C282 /* ViperImage.jpg */; };
 		7EC0371A1A9AF1AF0015C282 /* Batman- The RideImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037191A9AF1AF0015C282 /* Batman- The RideImage.jpg */; };
+		7EC0371C1A9AF22D0015C282 /* The Riddler's RevengeImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0371B1A9AF22D0015C282 /* The Riddler's RevengeImage.jpg */; };
+		7EC0371E1A9AF25D0015C282 /* Superman- Escape From KryptonImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0371D1A9AF25D0015C282 /* Superman- Escape From KryptonImage.jpg */; };
+		7EC037201A9AF2900015C282 /* Canyon BlasterImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0371F1A9AF2900015C282 /* Canyon BlasterImage.jpg */; };
+		7EC037221A9AF2DB0015C282 /* X2Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037211A9AF2DB0015C282 /* X2Image.jpg */; };
+		7EC037241A9AF2FE0015C282 /* ScreamImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037231A9AF2FE0015C282 /* ScreamImage.jpg */; };
+		7EC037261A9AF3210015C282 /* TatsuImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037251A9AF3210015C282 /* TatsuImage.jpg */; };
+		7EC037281A9AF33E0015C282 /* Apocalypse- The RideImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037271A9AF33E0015C282 /* Apocalypse- The RideImage.jpg */; };
+		7EC0372A1A9AF35F0015C282 /* Green Lantern- First FlightImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037291A9AF35F0015C282 /* Green Lantern- First FlightImage.jpg */; };
+		7EC0372C1A9AF3C90015C282 /* Road Runner ExpressImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0372B1A9AF3C90015C282 /* Road Runner ExpressImage.jpg */; };
+		7EC0372E1A9AF3F00015C282 /* Full ThrottleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0372D1A9AF3F00015C282 /* Full ThrottleImage.jpg */; };
+		7EC037301A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0372F1A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg */; };
+		7EC037321A9AF4720015C282 /* Twisted ColossusImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037311A9AF4720015C282 /* Twisted ColossusImage.jpg */; };
 		7EC60C601A56644800C7B372 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC60C5F1A56644800C7B372 /* iAd.framework */; };
 		7EC60C631A5679AA00C7B372 /* GoliathDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */; };
 		7EC650B11A5BAA8100B41957 /* Gold RusherImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC650B01A5BAA8100B41957 /* Gold RusherImage.jpg */; };
@@ -82,6 +94,18 @@
 		7EC037151A9AF1070015C282 /* NinjaImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NinjaImage.jpg; sourceTree = "<group>"; };
 		7EC037171A9AF13F0015C282 /* ViperImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ViperImage.jpg; sourceTree = "<group>"; };
 		7EC037191A9AF1AF0015C282 /* Batman- The RideImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Batman- The RideImage.jpg"; sourceTree = "<group>"; };
+		7EC0371B1A9AF22D0015C282 /* The Riddler's RevengeImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Riddler's RevengeImage.jpg"; sourceTree = "<group>"; };
+		7EC0371D1A9AF25D0015C282 /* Superman- Escape From KryptonImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Superman- Escape From KryptonImage.jpg"; sourceTree = "<group>"; };
+		7EC0371F1A9AF2900015C282 /* Canyon BlasterImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canyon BlasterImage.jpg"; sourceTree = "<group>"; };
+		7EC037211A9AF2DB0015C282 /* X2Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = X2Image.jpg; sourceTree = "<group>"; };
+		7EC037231A9AF2FE0015C282 /* ScreamImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScreamImage.jpg; sourceTree = "<group>"; };
+		7EC037251A9AF3210015C282 /* TatsuImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TatsuImage.jpg; sourceTree = "<group>"; };
+		7EC037271A9AF33E0015C282 /* Apocalypse- The RideImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apocalypse- The RideImage.jpg"; sourceTree = "<group>"; };
+		7EC037291A9AF35F0015C282 /* Green Lantern- First FlightImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Green Lantern- First FlightImage.jpg"; sourceTree = "<group>"; };
+		7EC0372B1A9AF3C90015C282 /* Road Runner ExpressImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Road Runner ExpressImage.jpg"; sourceTree = "<group>"; };
+		7EC0372D1A9AF3F00015C282 /* Full ThrottleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Full ThrottleImage.jpg"; sourceTree = "<group>"; };
+		7EC0372F1A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Speedy Gonzales Hot Rod RacersImage.jpg"; sourceTree = "<group>"; };
+		7EC037311A9AF4720015C282 /* Twisted ColossusImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Twisted ColossusImage.jpg"; sourceTree = "<group>"; };
 		7EC60C5F1A56644800C7B372 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GoliathDescription.txt; sourceTree = "<group>"; };
 		7EC650B01A5BAA8100B41957 /* Gold RusherImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gold RusherImage.jpg"; sourceTree = "<group>"; };
@@ -218,6 +242,18 @@
 		7EC60C611A56799000C7B372 /* MagicMountainRides */ = {
 			isa = PBXGroup;
 			children = (
+				7EC037311A9AF4720015C282 /* Twisted ColossusImage.jpg */,
+				7EC0372F1A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg */,
+				7EC0372D1A9AF3F00015C282 /* Full ThrottleImage.jpg */,
+				7EC0372B1A9AF3C90015C282 /* Road Runner ExpressImage.jpg */,
+				7EC037291A9AF35F0015C282 /* Green Lantern- First FlightImage.jpg */,
+				7EC037271A9AF33E0015C282 /* Apocalypse- The RideImage.jpg */,
+				7EC037251A9AF3210015C282 /* TatsuImage.jpg */,
+				7EC037231A9AF2FE0015C282 /* ScreamImage.jpg */,
+				7EC037211A9AF2DB0015C282 /* X2Image.jpg */,
+				7EC0371F1A9AF2900015C282 /* Canyon BlasterImage.jpg */,
+				7EC0371D1A9AF25D0015C282 /* Superman- Escape From KryptonImage.jpg */,
+				7EC0371B1A9AF22D0015C282 /* The Riddler's RevengeImage.jpg */,
 				7EC037191A9AF1AF0015C282 /* Batman- The RideImage.jpg */,
 				7EC037171A9AF13F0015C282 /* ViperImage.jpg */,
 				7EC037151A9AF1070015C282 /* NinjaImage.jpg */,
@@ -313,21 +349,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC0371A1A9AF1AF0015C282 /* Batman- The RideImage.jpg in Resources */,
+				7EC037261A9AF3210015C282 /* TatsuImage.jpg in Resources */,
 				7EC60C631A5679AA00C7B372 /* GoliathDescription.txt in Resources */,
 				7E7BDAE71A51465200FB93CF /* SixFlagsGreatAmericaRides.txt in Resources */,
+				7EC037201A9AF2900015C282 /* Canyon BlasterImage.jpg in Resources */,
 				7EC037121A9AF0870015C282 /* RevolutionImage.jpg in Resources */,
+				7EC0372A1A9AF35F0015C282 /* Green Lantern- First FlightImage.jpg in Resources */,
 				7EC037181A9AF13F0015C282 /* ViperImage.jpg in Resources */,
 				7EBFBC361A5A5D38003316CE /* GoliathImage.jpg in Resources */,
+				7EC0372C1A9AF3C90015C282 /* Road Runner ExpressImage.jpg in Resources */,
+				7EC037241A9AF2FE0015C282 /* ScreamImage.jpg in Resources */,
+				7EC0372E1A9AF3F00015C282 /* Full ThrottleImage.jpg in Resources */,
+				7EC0371C1A9AF22D0015C282 /* The Riddler's RevengeImage.jpg in Resources */,
 				7EC037161A9AF1070015C282 /* NinjaImage.jpg in Resources */,
+				7EC037321A9AF4720015C282 /* Twisted ColossusImage.jpg in Resources */,
 				7E7BDACA1A5136EE00FB93CF /* Main.storyboard in Resources */,
 				7EBFBC381A5A609B003316CE /* Gold RusherDescription.txt in Resources */,
 				7EC650B11A5BAA8100B41957 /* Gold RusherImage.jpg in Resources */,
 				7E7BDADA1A51390700FB93CF /* listOfParks in Resources */,
+				7EC037281A9AF33E0015C282 /* Apocalypse- The RideImage.jpg in Resources */,
+				7EC0371E1A9AF25D0015C282 /* Superman- Escape From KryptonImage.jpg in Resources */,
 				7EC650B31A5BB37200B41957 /* Magic FlyerDescription.txt in Resources */,
 				7E7BDAE51A513FD700FB93CF /* SixFlagsMagicMountainRides.txt in Resources */,
+				7EC037301A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg in Resources */,
 				7EC037101A9AF0130015C282 /* Magic FlyerImage.jpg in Resources */,
 				7E7BDACC1A5136EE00FB93CF /* LaunchScreen.xib in Resources */,
 				7E7BDACB1A5136EE00FB93CF /* Images.xcassets in Resources */,
+				7EC037221A9AF2DB0015C282 /* X2Image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
