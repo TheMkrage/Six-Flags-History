@@ -42,6 +42,7 @@
 		7EC0372E1A9AF3F00015C282 /* Full ThrottleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0372D1A9AF3F00015C282 /* Full ThrottleImage.jpg */; };
 		7EC037301A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0372F1A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg */; };
 		7EC037321A9AF4720015C282 /* Twisted ColossusImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037311A9AF4720015C282 /* Twisted ColossusImage.jpg */; };
+		7EC037341A9AF5FF0015C282 /* RevolutionDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EC037331A9AF5FF0015C282 /* RevolutionDescription.txt */; };
 		7EC60C601A56644800C7B372 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC60C5F1A56644800C7B372 /* iAd.framework */; };
 		7EC60C631A5679AA00C7B372 /* GoliathDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */; };
 		7EC650B11A5BAA8100B41957 /* Gold RusherImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC650B01A5BAA8100B41957 /* Gold RusherImage.jpg */; };
@@ -106,6 +107,7 @@
 		7EC0372D1A9AF3F00015C282 /* Full ThrottleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Full ThrottleImage.jpg"; sourceTree = "<group>"; };
 		7EC0372F1A9AF4240015C282 /* Speedy Gonzales Hot Rod RacersImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Speedy Gonzales Hot Rod RacersImage.jpg"; sourceTree = "<group>"; };
 		7EC037311A9AF4720015C282 /* Twisted ColossusImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Twisted ColossusImage.jpg"; sourceTree = "<group>"; };
+		7EC037331A9AF5FF0015C282 /* RevolutionDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RevolutionDescription.txt; sourceTree = "<group>"; };
 		7EC60C5F1A56644800C7B372 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GoliathDescription.txt; sourceTree = "<group>"; };
 		7EC650B01A5BAA8100B41957 /* Gold RusherImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gold RusherImage.jpg"; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 				7EBFBC351A5A5D38003316CE /* GoliathImage.jpg */,
 				7EBFBC371A5A609B003316CE /* Gold RusherDescription.txt */,
 				7EC650B21A5BB37200B41957 /* Magic FlyerDescription.txt */,
+				7EC037331A9AF5FF0015C282 /* RevolutionDescription.txt */,
 				7EC60C621A5679AA00C7B372 /* GoliathDescription.txt */,
 			);
 			name = MagicMountainRides;
@@ -351,6 +354,7 @@
 				7EC0371A1A9AF1AF0015C282 /* Batman- The RideImage.jpg in Resources */,
 				7EC037261A9AF3210015C282 /* TatsuImage.jpg in Resources */,
 				7EC60C631A5679AA00C7B372 /* GoliathDescription.txt in Resources */,
+				7EC037341A9AF5FF0015C282 /* RevolutionDescription.txt in Resources */,
 				7E7BDAE71A51465200FB93CF /* SixFlagsGreatAmericaRides.txt in Resources */,
 				7EC037201A9AF2900015C282 /* Canyon BlasterImage.jpg in Resources */,
 				7EC037121A9AF0870015C282 /* RevolutionImage.jpg in Resources */,
